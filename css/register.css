@@ -1,0 +1,113 @@
+#profileDisplay {
+    display: block;
+    /* height: 200px; */
+    width: 60%;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+
+body{
+    height: 100vh;
+    background-color: #051630;
+}
+/* body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/rest1.jpg") center/cover no-repeat;
+} */
+
+.back img {
+    /* width: 50px; */
+    /* margin-left: 20px;
+    margin-top: -40px;
+    display: inline-block;
+    position: absolute; */
+}
+
+.row {
+    margin-top: 90px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
+input,textarea {
+    width: 100%;
+    padding: 7px 0px 7px 8px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: 0;
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.form-div2 h2 {
+    /* color: #fff; */
+    /* filter: blur(.6px);
+    padding-bottom: 30px; */
+}
+
+.img-div img {
+    /* border: 1px solid #fff; */
+}
+
+.img-placeholder {
+    width: 60%;
+    /* color: white; */
+    height: 100%;
+    background: black;
+    opacity: .7;
+    /* height: 210px; */
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    /* border: 1px solid #fff; */
+}
+
+.img-placeholder h4 {
+    margin-top: 40%;
+    /* color: white; */
+}
+
+.img-div:hover .img-placeholder {
+    display: block;
+    cursor: pointer;
+}
+
+.img-div h4 {
+    /* color: #fff; */
+    filter: blur(.6px);
+}
+
+.col input {
+    display: block;
+}
+
+.col input[type=text],
+.col input[type=email],
+.col input[type=password],
+.col input::placeholder {
+
+    /* color: #fff; */
+    background-color: transparent;
+}
+
+.form-group textarea[type=text],
+.form-group textarea::placeholder {
+    /* background: transparent; */
+    /* color: #fff; */
+}
+
+.form-group button[type=submit] {
+    /* color: #fff; */
+    border: 1px solid #fff;
+    padding: 6px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.form-group button[type=submit]:hover {
+    /* color: #fff; */
+    border: 1px solid #fff;
+}
