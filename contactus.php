@@ -213,7 +213,7 @@ include ('./admin/connection.php');
 
     <!-- ======= Footer ======= -->
     <?php 
-    
+    include("footer.php");
     ?>
     <!-- End Footer -->
 
